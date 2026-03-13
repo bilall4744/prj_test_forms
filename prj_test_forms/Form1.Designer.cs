@@ -30,6 +30,7 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageChannelsConfig = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanelChannels = new System.Windows.Forms.TableLayoutPanel();
             this.tabPageUtilitySettings = new System.Windows.Forms.TabPage();
             this.groupBoxModeSelection = new System.Windows.Forms.GroupBox();
             this.groupBoxConfigSettings = new System.Windows.Forms.GroupBox();
@@ -50,6 +51,7 @@
             // 
             // tabPageChannelsConfig
             // 
+            this.tabPageChannelsConfig.Controls.Add(this.tableLayoutPanelChannels);
             this.tabPageChannelsConfig.Location = new System.Drawing.Point(4, 22);
             this.tabPageChannelsConfig.Name = "tabPageChannelsConfig";
             this.tabPageChannelsConfig.Padding = new System.Windows.Forms.Padding(3);
@@ -57,6 +59,29 @@
             this.tabPageChannelsConfig.TabIndex = 0;
             this.tabPageChannelsConfig.Text = "Конфигурация каналов DI";
             this.tabPageChannelsConfig.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanelChannels
+            // 
+            this.tableLayoutPanelChannels.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanelChannels.ColumnCount = 4;
+            this.tableLayoutPanelChannels.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanelChannels.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanelChannels.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanelChannels.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanelChannels.Location = new System.Drawing.Point(8, 8);
+            this.tableLayoutPanelChannels.Name = "tableLayoutPanelChannels";
+            this.tableLayoutPanelChannels.RowCount = 9;
+            this.tableLayoutPanelChannels.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanelChannels.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanelChannels.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanelChannels.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanelChannels.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanelChannels.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanelChannels.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanelChannels.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanelChannels.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.11111F));
+            this.tableLayoutPanelChannels.Size = new System.Drawing.Size(267, 293);
+            this.tableLayoutPanelChannels.TabIndex = 0;
             // 
             // tabPageUtilitySettings
             // 
@@ -125,6 +150,7 @@
 
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPageChannelsConfig;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelChannels;
         private System.Windows.Forms.TabPage tabPageUtilitySettings;
         private System.Windows.Forms.GroupBox groupBoxModeSelection;
         private System.Windows.Forms.GroupBox groupBoxConfigSettings;
