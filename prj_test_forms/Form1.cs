@@ -21,10 +21,5 @@ namespace prj_test_forms
         {
             textBox1.Text = "Hello frend ...";
         }
-
-        private void buttonExit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }
